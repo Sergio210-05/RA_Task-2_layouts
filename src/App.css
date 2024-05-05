@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+#root {
+  width: 1080px;
+  background-color: white;
+  /* margin: 0 auto;
+  padding: 2rem;
+  text-align: center; */
+}
+
+.icon-switch {
+  height: 50px;
+  color: grey;
+  display: block;
+}
+
+.material-icons {
+  display: block;
+  text-align: right;
+  margin-top: 20px;
+}
+
+.shop-item {
+  margin-bottom: 5px;
+  width: 100%;
+  display: flex;
+  background-color: whitesmoke;
+}
+
+.item-image, .item-title, .item-color, .item-price, .item-button-container {
+  width: 20%;
+  text-align: center;
+  margin: auto;
+  color: black;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.shop-card {
+  display: flexbox;
+  width: 300px;
+  height: 300px;
+  margin: 10px 10px 10px 10px;
+  box-shadow: 5px 10px 10px 10px gainsboro;
+  border-radius: 5px;
+}
+
+.card-title {
+  height: 20%;
+}
+
+.card-color {
+  height: 10%;
+}
+
+.card-title, .card-color {
+  margin-top: auto;
+  margin-bottom: auto;
+  align-items: center;
+  align-content:center;
+}
+
+.card-footer {
+  height: 17%;
+  display: flex;
+  align-content: center;
+  margin-top: 53%;
+}
+
+.card-price, .card-button-container {
+  margin-left: auto;
+  margin-right: auto;
+  vertical-align: middle;
+  align-items: center;
+}
+
+.card-title, .card-color, .card-price, .card-button-container {
+  text-align: center;
+}
+
+.item-title, .item-color, .card-title, .card-color {
+  color: black;
+}
+
+.item-price, .card-price {
+  color: red;
+}
+
+.item-button, .card-button {
+  height: 40px;
+  border-radius: 20px;
+  border-color: red;
+  color: red;
+  background-color: white;
+}
